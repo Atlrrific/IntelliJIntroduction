@@ -18,5 +18,6 @@ public abstract class Temperature {
 
     public abstract float toCelsius();
 
-    public abstract float toFahrenheit();
+    public abstract float :wq
+            ();
 }
