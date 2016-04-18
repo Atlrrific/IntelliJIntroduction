@@ -10,8 +10,19 @@ public class Celsius extends Temperature {
             super(t);
         }
 
+    @Override
+    public float toCelsius() {
 
-        public String toString()
+        return this.getValue();
+    }
+
+    @Override
+    public float toFahrenheit() {
+        return (float) (this.getValue()*1.8 + 32);
+    }
+
+
+    public String toString()
         {
             // TODO: Complete this method
             return "";
